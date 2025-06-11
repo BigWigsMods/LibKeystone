@@ -1,0 +1,32 @@
+## Interface: 110105, 110107, 110100
+## Version: @project-version@
+## Title: Lib: Keystone
+## Notes: A library for transmitting keystone information.
+# Notes-deDE: A library for transmitting keystone information.
+# Notes-esES: A library for transmitting keystone information.
+# Notes-esMX: A library for transmitting keystone information.
+# Notes-frFR: A library for transmitting keystone information.
+# Notes-itIT: A library for transmitting keystone information.
+# Notes-koKR: A library for transmitting keystone information.
+# Notes-ptBR: A library for transmitting keystone information.
+# Notes-ruRU: A library for transmitting keystone information.
+# Notes-zhCN: A library for transmitting keystone information.
+# Notes-zhTW: A library for transmitting keystone information.
+## Category: Libraries
+## Category-deDE: Bibliotheken
+## Category-esES: Bibliotecas
+## Category-esMX: Bibliotecas
+## Category-frFR: Bibliothèques
+# Category-itIT: Libraries
+# Category-koKR: Libraries
+## Category-ptBR: Bibliotecas
+## Category-ruRU: Библиотеки
+## Category-zhCN: 函数库
+## Category-zhTW: 函式庫
+## Author: Funkeh
+## OptionalDeps: LibStub
+## AllowLoadGameType: mainline
+## X-Curse-Project-ID: 1285016
+
+LibStub\LibStub.lua
+LibKeystone\LibKeystone.lua
