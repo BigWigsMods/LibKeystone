@@ -1,4 +1,4 @@
---@curseforge-project-slug: libkeystone@
+
 if WOW_PROJECT_ID ~= 1 then return end -- Retail
 
 local LKS = LibStub:NewLibrary("LibKeystone", 1)
