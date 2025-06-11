@@ -1,6 +1,9 @@
 std = "lua51"
 max_line_length = false
 codes = true
+exclude_files = {
+	"**/LibStub",
+}
 ignore = {
 	"113/Ambiguate",
 	"113/C_ChatInfo",
