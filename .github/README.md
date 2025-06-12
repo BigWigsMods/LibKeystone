@@ -26,7 +26,7 @@ For example, in your .toc file you could define the following:
 myUniqueTable - A table that is unique to your addon, so that it can be identified if you ever want to unregister it.
 function - A function reference, this will run when receiving keystone information from users.
 
-`LibKeystone.Unregister(myUniqueTable, function)`
+`LibKeystone.Unregister(myUniqueTable)`
 
 myUniqueTable - The table unique to your addon that you provided when registering.
 
@@ -45,9 +45,8 @@ LibKeystone.Register(myUniqueTable, function(keyLevel, keyMap, playerRating, pla
 	print(string.format("User %q has a %q keystone that's level %d and a rating of %d.", sender, GetRealZoneText(keyMap), keyLevel, playerRating))
 end)
 
--- Attach these to something the user interacts with, like a button
+-- Attach this to something the user interacts with, like a button click
 LibKeystone.Request("PARTY")
---LibKeystone.Request("GUILD")
 ```
 
 ## Download
