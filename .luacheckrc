@@ -9,6 +9,7 @@ ignore = {
 	"113/C_ChatInfo",
 	"113/C_MythicPlus",
 	"113/C_PlayerInfo",
+	"113/C_Timer",
 	"113/CreateFrame",
 	"113/GetTime",
 	"113/LibStub",
