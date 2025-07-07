@@ -40,7 +40,11 @@ channel - A string, either "PARTY" or "GUILD" depending on which users you want 
 local LibKeystone = LibStub("LibKeystone")
 local myUniqueTable = {}
 
--- keyLevel=Number, keyMap=Number, playerRating=Number, playerName=String, channel=String
+-- keyLevel=Number, the level of the keystone
+-- keyMap=Number, the challenge map ID of the keystone, use `C_ChallengeMode.GetMapUIInfo()` to get info like the map name
+-- playerRating=Number, the Mythic+ rating of the player
+-- playerName=String, the name of the player
+-- channel=String, the channel the data was received from (PARTY or GUILD)
 LibKeystone.Register(myUniqueTable, function(keyLevel, keyMap, playerRating, playerName, channel)
 	print(string.format("User %q has a %q keystone that's level %d and a rating of %d.", sender, GetRealZoneText(keyMap), keyLevel, playerRating))
 end)

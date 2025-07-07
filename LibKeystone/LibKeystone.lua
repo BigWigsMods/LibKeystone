@@ -56,7 +56,8 @@ do
 		if type(keyLevel) ~= "number" then
 			keyLevel = 0
 		end
-		-- Keystone instance ID
+		-- Keystone challenge ID [https://wago.tools/db2/MapChallengeMode]
+		-- You can pass this ID into `C_ChallengeMode.GetMapUIInfo()` to get info like the name
 		local keyMap = GetOwnedKeystoneChallengeMapID()
 		if type(keyMap) ~= "number" then
 			keyMap = 0
