@@ -1,7 +1,7 @@
 --@curseforge-project-slug: libkeystone@
 if WOW_PROJECT_ID ~= 1 then return end -- Retail
 
-local LKS = LibStub:NewLibrary("LibKeystone", 3)
+local LKS = LibStub:NewLibrary("LibKeystone", 4)
 if not LKS then return end -- No upgrade needed
 
 LKS.callbackMap = LKS.callbackMap or {}
@@ -48,7 +48,7 @@ end
 
 local GetInfo
 do
-	local GetOwnedKeystoneLevel, GetOwnedKeystoneMapID = C_MythicPlus.GetOwnedKeystoneLevel, C_MythicPlus.GetOwnedKeystoneMapID
+	local GetOwnedKeystoneLevel, GetOwnedKeystoneChallengeMapID = C_MythicPlus.GetOwnedKeystoneLevel, C_MythicPlus.GetOwnedKeystoneChallengeMapID
 	local GetPlayerMythicPlusRatingSummary = C_PlayerInfo.GetPlayerMythicPlusRatingSummary
 	function GetInfo()
 		-- Keystone level
@@ -57,7 +57,7 @@ do
 			keyLevel = 0
 		end
 		-- Keystone instance ID
-		local keyMap = GetOwnedKeystoneMapID()
+		local keyMap = GetOwnedKeystoneChallengeMapID()
 		if type(keyMap) ~= "number" then
 			keyMap = 0
 		end
