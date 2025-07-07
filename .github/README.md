@@ -41,12 +41,14 @@ local LibKeystone = LibStub("LibKeystone")
 local myUniqueTable = {}
 
 -- keyLevel=Number, the level of the keystone
--- keyMap=Number, the challenge map ID of the keystone, use `C_ChallengeMode.GetMapUIInfo()` to get info like the map name
+-- keyMapID=Number, the challenge map ID of the keystone
 -- playerRating=Number, the Mythic+ rating of the player
 -- playerName=String, the name of the player
 -- channel=String, the channel the data was received from (PARTY or GUILD)
-LibKeystone.Register(myUniqueTable, function(keyLevel, keyMap, playerRating, playerName, channel)
-	print(string.format("User %q has a %q keystone that's level %d and a rating of %d.", sender, GetRealZoneText(keyMap), keyLevel, playerRating))
+LibKeystone.Register(myUniqueTable, function(keyLevel, keyMapID, playerRating, playerName, channel)
+	-- You can use C_ChallengeMode.GetMapUIInfo(keyMapID) to get info like the map name
+	local challengeMapName = C_ChallengeMode.GetMapUIInfo(keyMapID)
+	print(string.format("%s has a %q keystone that's level %d and has a rating of %d.", sender, challengeMapName, keyLevel, playerRating))
 end)
 
 -- Attach this to something the user interacts with, like a button click
