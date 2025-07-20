@@ -1,17 +1,17 @@
 ## Interface: 110105, 110107, 110200
 ## Version: @project-version@
 ## Title: Lib: Keystone
-## Notes: A library for transmitting keystone information.
-# Notes-deDE: A library for transmitting keystone information.
-# Notes-esES: A library for transmitting keystone information.
-# Notes-esMX: A library for transmitting keystone information.
-# Notes-frFR: A library for transmitting keystone information.
-# Notes-itIT: A library for transmitting keystone information.
-# Notes-koKR: A library for transmitting keystone information.
-# Notes-ptBR: A library for transmitting keystone information.
-# Notes-ruRU: A library for transmitting keystone information.
-# Notes-zhCN: A library for transmitting keystone information.
-# Notes-zhTW: A library for transmitting keystone information.
+## Notes: A library for transmitting your keystone information to other players, that developers can embed in their addons.
+# Notes-deDE: A library for transmitting your keystone information to other players, that developers can embed in their addons.
+# Notes-esES: A library for transmitting your keystone information to other players, that developers can embed in their addons.
+# Notes-esMX: A library for transmitting your keystone information to other players, that developers can embed in their addons.
+# Notes-frFR: A library for transmitting your keystone information to other players, that developers can embed in their addons.
+# Notes-itIT: A library for transmitting your keystone information to other players, that developers can embed in their addons.
+# Notes-koKR: A library for transmitting your keystone information to other players, that developers can embed in their addons.
+# Notes-ptBR: A library for transmitting your keystone information to other players, that developers can embed in their addons.
+# Notes-ruRU: A library for transmitting your keystone information to other players, that developers can embed in their addons.
+# Notes-zhCN: A library for transmitting your keystone information to other players, that developers can embed in their addons.
+# Notes-zhTW: A library for transmitting your keystone information to other players, that developers can embed in their addons.
 ## Category: Libraries
 ## Category-deDE: Bibliotheken
 ## Category-esES: Bibliotecas

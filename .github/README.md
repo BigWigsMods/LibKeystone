@@ -48,7 +48,7 @@ local myUniqueTable = {}
 LibKeystone.Register(myUniqueTable, function(keyLevel, keyMapID, playerRating, playerName, channel)
 	-- You can use C_ChallengeMode.GetMapUIInfo(keyMapID) to get info like the map name
 	local challengeMapName = C_ChallengeMode.GetMapUIInfo(keyMapID)
-	print(string.format("%s has a %q keystone that's level %d and has a rating of %d.", sender, challengeMapName, keyLevel, playerRating))
+	print(string.format("%s has a %q keystone that's level %d and has a rating of %d.", playerName, challengeMapName, keyLevel, playerRating))
 end)
 
 -- Attach this to something the user interacts with, like a button click
