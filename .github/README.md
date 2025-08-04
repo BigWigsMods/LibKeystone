@@ -33,6 +33,7 @@ myUniqueTable - The table unique to your addon that you provided when registerin
 `LibKeystone.Request(channel)`
 
 channel - A string, either "PARTY" or "GUILD" depending on which users you want keystone information from.
+*WARNING: LibKeystone communication is not automatic, but, between the end of a Mythic+ and the player leaving the dungeon, keystone changes are automatically broadcasted.*
 
 ## Example code:
 
