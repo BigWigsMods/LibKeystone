@@ -7,6 +7,8 @@ exclude_files = {
 ignore = {
 	"113/Ambiguate",
 	"113/C_ChatInfo",
+	"113/C_Container",
+	"113/C_Item",
 	"113/C_MythicPlus",
 	"113/C_PlayerInfo",
 	"113/C_Timer",
@@ -15,6 +17,8 @@ ignore = {
 	"113/LibStub",
 	"113/IsInGroup",
 	"113/IsInGuild",
+	"113/PlayerIsTimerunning",
+	"143/string",
 	"113/UnitClassBase",
 	"113/UnitNameUnmodified",
 	"113/WOW_PROJECT_ID",
