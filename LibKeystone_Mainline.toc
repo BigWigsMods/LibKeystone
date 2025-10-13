@@ -1,4 +1,4 @@
-## Interface: 110205, 110107, 110200
+## Interface: 110205, 110207, 120000
 ## Version: @project-version@
 ## Title: Lib: Keystone
 ## Notes: A library for transmitting your keystone information to other players, that developers can embed in their addons.
@@ -17,7 +17,7 @@
 ## Category-esES: Bibliotecas
 ## Category-esMX: Bibliotecas
 ## Category-frFR: Bibliothèques
-# Category-itIT: Libraries
+## Category-itIT: Bibliotecas
 # Category-koKR: Libraries
 ## Category-ptBR: Bibliotecas
 ## Category-ruRU: Библиотеки
