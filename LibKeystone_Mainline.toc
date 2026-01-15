@@ -1,4 +1,4 @@
-## Interface: 110205, 110207, 120000
+## Interface: 120001, 110207, 120000
 ## Version: @project-version@
 ## Title: Lib: Keystone
 ## Notes: A library for transmitting your keystone information to other players, that developers can embed in their addons.
