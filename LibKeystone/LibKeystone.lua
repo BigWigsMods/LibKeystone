@@ -166,9 +166,10 @@ do
 			end
 		end
 	end
+	local issecretvalue = issecretvalue or function() return false end
 	LKS.frame:SetScript("OnEvent", function(self, event, prefix, msg, channel, sender)
 		if event == "CHAT_MSG_ADDON" then
-			if prefix == "LibKS" and throttleTable[channel] then
+			if not issecretvalue(msg) and prefix == "LibKS" and throttleTable[channel] then
 				if msg == "R" then
 					local t = GetTime()
 					if t - throttleTable[channel] > throttleTime then
