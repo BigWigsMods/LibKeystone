@@ -17,7 +17,6 @@ ignore = {
 	"113/LibStub",
 	"113/IsInGroup",
 	"113/IsInGuild",
-	"113/issecretvalue",
 	"113/PlayerIsTimerunning",
 	"113/securecallfunction",
 	"143/string",
