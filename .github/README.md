@@ -35,14 +35,18 @@ myUniqueTable - The table unique to your addon that you provided when registerin
 channel - A string, either "PARTY" or "GUILD" depending on which users you want keystone information from.
 *WARNING: LibKeystone communication is not automatic, but, between the end of a Mythic+ and the player leaving the dungeon, keystone changes are automatically broadcasted.*
 
+`LibKeystone.SetGuildHidden(isHidden)`
+
+isHidden - A boolean, when true your keystone level and map ID will be transmitted as `-1` to guild members (if you own a keystone).
+
 ## Example code:
 
 ```
 local LibKeystone = LibStub("LibKeystone")
 local myUniqueTable = {}
 
--- keyLevel=Number, the level of the keystone
--- keyMapID=Number, the challenge map ID of the keystone
+-- keyLevel=Number, the level of the keystone (0 if none, -1 if hidden from guild)
+-- keyMapID=Number, the challenge map ID of the keystone (0 if none, -1 if hidden from guild)
 -- playerRating=Number, the Mythic+ rating of the player
 -- playerName=String, the name of the player
 -- channel=String, the channel the data was received from (PARTY or GUILD)

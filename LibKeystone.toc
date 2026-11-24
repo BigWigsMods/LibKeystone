@@ -26,7 +26,6 @@
 ## Category-zhTW: 函式庫
 ## Author: Funkeh
 ## OptionalDeps: LibStub
-## AllowLoadGameType: mainline
 ## X-Curse-Project-ID: 1285016
 
 LibStub\LibStub.lua
